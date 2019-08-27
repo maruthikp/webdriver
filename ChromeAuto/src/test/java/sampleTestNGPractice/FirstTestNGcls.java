@@ -40,7 +40,7 @@ public class FirstTestNGcls {
 @AfterMethod
 public void SwithWindow() throws InterruptedException
 {
-	String Parent = driver.getWindowHandle();
+	//String Parent = driver.getWindowHandle();
 	Set<String> windows= driver.getWindowHandles();
 	for(String eachwindow :windows) {
 		driver.switchTo().window(eachwindow);

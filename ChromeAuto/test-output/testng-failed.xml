@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="sampleTestNGPractice.FirstTestNGcls">
+        <methods>
+          <include name="helloMethod"/>
+          <include name="stest"/>
+          <include name="As1"/>
+          <include name="hello"/>
+          <include name="Am1"/>
+        </methods>
+      </class> <!-- sampleTestNGPractice.FirstTestNGcls -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
